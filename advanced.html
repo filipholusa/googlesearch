@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Rozšířené vyhledávání</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Zpět na Google</a>
+        </nav>
+
+        <h1>Rozšířené vyhledávání</h1>
+        <p>Vyplň pole, podle kterých chceš hledat.</p>
+
+        <form action="https://www.google.com/search">
+            <div class="radek">
+                <label>Všechna slova:</label>
+                <input type="text" name="as_q" placeholder="Moderní stavby">
+            </div>
+
+            <div class="radek">
+                <label>Přesná fráze:</label>
+                <input type="text" name="as_epq" placeholder="nejlepší hry">
+            </div>
+
+            <div class="radek">
+                <label>Některé slovo:</label>
+                <input type="text" name="as_oq" placeholder="pes kočka">
+            </div>
+
+            <div class="radek">
+                <label>Vynechat slova:</label>
+                <input type="text" name="as_eq" placeholder="reklama">
+
+            </div>
+
+            <input type="submit" value="Vyhledat" class="modre">
+        </form>
+    </body>
+</html>
