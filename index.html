@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
     <head>
-        <title>Vyhledávání Google</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>Vyhledávání</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <nav>
             <a href="images.html">Obrázky</a>
             <a href="advanced.html">Rozšířené vyhledávání</a>
+            <a href="https://filipholusa.github.io/" class="portfolio">Moje portfolio</a>
         </nav>
 
         <div class="hlavni">
             <h1>Google</h1>
+            <p>Vyhledej, co tě zajímá.</p>
 
             <form action="https://www.google.com/search">
-                <input type="text" name="q" class="hledani">
+                <input type="text" name="q" class="hledani" placeholder="Zadej hledaný text..." required>
 
                 <div class="tlacitka">
                     <input type="submit" value="Vyhledávání Google">
-                    <input type="submit" name="btnI" value="Cítím se šťastně">
+                </div>
+            </form>
+
+            <form action="https://cs.wikipedia.org/wiki/Special:Search">
+                <input type="text" name="search" class="hledani" placeholder="Hledat na Wikipedii..." required>
+                <div class="tlacitka">
+                    <input type="submit" value="Vyhledávání Wikipedie">
                 </div>
             </form>
         </div>
+
+        <footer>Školní projekt</footer>
     </body>
 </html>

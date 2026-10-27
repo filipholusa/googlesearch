@@ -2,24 +2,26 @@
 <html lang="cs">
     <head>
         <title>Google Obrázky</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <nav>
-            <a href="index.html">Zpět na Google</a>
+            <a href="index.html">Zpět na hlavní stránku</a>
+            <a href="https://filipholusa.github.io/" class="portfolio">Moje portfolio</a>
         </nav>
 
         <div class="hlavni">
             <h1>Google Obrázky</h1>
-
+            <p>Najdi obrázky z internetu.</p>
             <form action="https://www.google.com/search">
-                <input type="text" name="q" class="hledani">
+                <input type="text" name="q" class="hledani" placeholder="Hledat obrázky..." required>
                 <input type="hidden" name="tbm" value="isch">
-
                 <div class="tlacitka">
                     <input type="submit" value="Hledat obrázky">
                 </div>
             </form>
         </div>
+
+        <footer>Školní projekt</footer>
     </body>
 </html>

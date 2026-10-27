@@ -2,39 +2,39 @@
 <html lang="cs">
     <head>
         <title>Rozšířené vyhledávání</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <nav>
-            <a href="index.html">Zpět na Google</a>
+            <a href="index.html">Zpět na hlavní stránku</a>
+            <a href="https://filipholusa.github.io/" class="portfolio">Moje portfolio</a>
         </nav>
 
-        <h1>Rozšířené vyhledávání</h1>
-        <p>Vyplň pole, podle kterých chceš hledat.</p>
+        <div class="advanced">
+            <h1>Rozšířené vyhledávání</h1>
+            <p>Upřesni, co chceš najít.</p>
 
-        <form action="https://www.google.com/search">
-            <div class="radek">
-                <label>Všechna slova:</label>
-                <input type="text" name="as_q" placeholder="Moderní stavby">
-            </div>
+            <form action="https://www.google.com/search">
+                <div class="radek">
+                    <label>Všechna slova:</label>
+                    <input type="text" name="as_q" placeholder="Moderní stavby">
+                </div>
+                <div class="radek">
+                    <label>Přesná fráze:</label>
+                    <input type="text" name="as_epq" placeholder="nejlepší hry">
+                </div>
+                <div class="radek">
+                    <label>Některá slova:</label>
+                    <input type="text" name="as_oq" placeholder="pes kočka">
+                </div>
+                <div class="radek">
+                    <label>Vynechat slova:</label>
+                    <input type="text" name="as_eq" placeholder="reklama">
+                </div>
+                <input type="submit" value="Vyhledat" class="zelene">
+            </form>
+        </div>
 
-            <div class="radek">
-                <label>Přesná fráze:</label>
-                <input type="text" name="as_epq" placeholder="nejlepší hry">
-            </div>
-
-            <div class="radek">
-                <label>Některé slovo:</label>
-                <input type="text" name="as_oq" placeholder="pes kočka">
-            </div>
-
-            <div class="radek">
-                <label>Vynechat slova:</label>
-                <input type="text" name="as_eq" placeholder="reklama">
-
-            </div>
-
-            <input type="submit" value="Vyhledat" class="modre">
-        </form>
+        <footer>Školní projekt</footer>
     </body>
 </html>
