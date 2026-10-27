@@ -122,3 +122,19 @@ footer {
     .radek label { width: auto; }
     .advanced { margin: 30px 15px; }
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    margin: 10px;
+    color: #218c54;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
