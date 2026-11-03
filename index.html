@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="cs">
-    <head>
-        <title>Vyhledávání</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <a href="images.html">Obrázky</a>
-            <a href="advanced.html">Rozšířené vyhledávání</a>
-            <a href="https://filipholusa.github.io/" class="portfolio">Moje portfolio</a>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyhledávání</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
 
-        <div class="hlavni">
-            <h1>Google</h1>
-            <p>Vyhledej, co tě zajímá.</p>
+    <nav>
+        <a href="images.html">Obrázky</a>
+        <a href="advanced.html">Rozšířené vyhledávání</a>
+        <a href="https://filipholusa.github.io/" class="portfolio">Moje portfolio</a>
+    </nav>
 
-            <form action="https://www.google.com/search">
-                <input type="text" name="q" class="hledani" placeholder="Zadej hledaný text..." required>
-                <div class="tlacitka">
-                    <input type="submit" value="Vyhledávání Google">
-                </div>
-            </form>
+    <div class="hlavni">
+        <h1>Google</h1>
+        <p>Vyhledej, co tě zajímá.</p>
 
-            <form action="https://cs.wikipedia.org/wiki/Special:Search">
-                <input type="text" name="search" class="hledani" placeholder="Hledat na Wikipedii..." required>
-                <div class="tlacitka">
-                    <input type="submit" value="Vyhledávání Wikipedie">
-                </div>
-            </form>
-        </div>
+        <form action="https://www.google.com/search" method="get">
+            <input
+                type="text"
+                name="q"
+                class="hledani"
+                placeholder="Zadej hledaný text..."
+                required
+            >
+            <div class="tlacitka">
+                <input type="submit" value="Vyhledávání Google">
+            </div>
+        </form>
 
-        <footer>
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffilipholusa.github.io%2Fgooglesearch%2F">HTML Validator</a>
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffilipholusa.github.io%2Fgooglesearch%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=cs">CSS Validator</a>
-        </footer>
-    </body>
+        <form action="https://cs.wikipedia.org/wiki/Special:Search" method="get">
+            <input
+                type="text"
+                name="search"
+                class="hledani"
+                placeholder="Hledat na Wikipedii..."
+                required
+            >
+            <div class="tlacitka">
+                <input type="submit" value="Vyhledávání Wikipedie">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffilipholusa.github.io%2Fgooglesearch%2F">
+            HTML Validator
+        </a>
+
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffilipholusa.github.io%2Fgooglesearch%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=cs">
+            CSS Validator
+        </a>
+    </footer>
+
+</body>
 </html>
